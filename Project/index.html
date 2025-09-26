@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://via.placeholder.com/32" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+    </select>
+    <div class="container">
+      <!-- ...existing code... -->
+    <header data-aos="zoom-in">
+      <div class="profile-pic">
+        <img src="profile.jpg" alt="Profile" class="profile-img" />
+      </div>
+      <p class="subtitle" id="subtitle"><strong>✨ Welcome To Our Project ✨</strong></p>
+    
+      <!-- Language Selector -->
+      <select id="langSelect" class="lang-select">
+        <option value="id">🇮🇩 Indonesia</option>
+        <option value="en">🇺🇸 English</option>
+        <option value="jp">🇯🇵 日本語</option>
+        <option value="ar">🇸🇦 العربية</option>
+      </select>
+
+      <button class="dark-toggle" id="darkToggle"><i class="ri-moon-line"></i></button>
+    </header>
+
+
+
+      <section class="links" data-aos="flip-up">
+        <a href="https://yourportfolio.czzom" class="card portfolio" data-aos="fade-up" data-aos-delay="100"
+          target="_blank">
+          <i class="ri-briefcase-line"></i>
+          <div>
+            <h3 id="portofolioTitle">Portofolio</h3>
+            <p id="portofolioDesc">Visit The Project</p>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/som3one_only/" class="card instagram" data-aos="fade-up" data-aos-delay="200"
+          target="_blank">
+          <i class="ri-instagram-line"></i>
+          <div>
+            <h3 id="instagramTitle">Instagram</h3>
+            <p id="instagramDesc">Follow me !!!</p>
+          </div>
+        </a>
+        <a href="https://wa.me/6282258868276?text="
+          class="card whatsapp" data-aos="fade-up" data-aos-delay="300" target="_blank">
+          <i class="ri-whatsapp-line"></i>
+          <div>
+            <h3 id="whatsappTitle">WhatsApp</h3>
+            <p id="whatsappDesc">Chat me now!</p>
+          </div>
+        </a>
+        <a href="https://github.com/Chairulnan" class="card github" data-aos="fade-up" data-aos-delay="400"
+          target="_blank">
+          <i class="ri-github-line"></i>
+          <div>
+            <h3 id="githubTitle">Github</h3>
+            <p id="githubDesc">Visit Me</p>
+          </div>
+        </a>
+      </section>
+
+      <!-- AOS JS -->
+      <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+      <script>
+        AOS.init({ duration: 1000, once: true });
+
+      </script>
+</body>
+
+</html>
